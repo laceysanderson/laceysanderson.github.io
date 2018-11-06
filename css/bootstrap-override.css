@@ -1,16 +1,19 @@
+a, a:focus, a:hover {
+  color: #5E006A;
+}
 /** NavBar override **/
 .nav>li>a:focus, .nav>li>a:hover,.navbar-inverse .nav li.dropdown.open>.dropdown-toggle,.navbar-inverse .nav li.dropdown.active>.dropdown-toggle,.navbar-inverse .nav li.dropdown.open.active>.dropdown-toggle{
 	background-color: #2d3538;
+	color: #5E006A;
 }
 .navbar-inverse .nav>li>a {
-	color: #A5C5DF;
+	color: #d0d0d0;
 }
 .navbar-inverse .brand {
 	color: white;
 }
 .navbar-inverse  {
-	background-color: #4B8ABE;
-	background-image: linear-gradient(to bottom, #2d3538, #2d3538);
+	background-color: #2D002A;
 	border-width: 0px;
 	border-color: #2d3538;
 	color: white;
@@ -22,7 +25,8 @@
 	padding: 5px; 
 }
 .label-info, .badge-info {
-	background-color: #005985;
+  color: #FFF;
+	background-color: #5E006A;
 	text-shadow:none;
 	font-weight: normal;
 	

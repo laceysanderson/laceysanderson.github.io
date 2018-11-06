@@ -130,7 +130,7 @@ table {
     border-top-right-radius: 5px;
 }
 .top-rounded-panel h1{
-	color: #ff3500;
+	color: #5E006A;
 	font-weight: 300;
 	padding-top: 15px;
 }
@@ -413,4 +413,19 @@ td.loginRow {
 
 .github-box {
 	margin-top: 15px;
+}
+
+em.pop {
+  color: #5E006A;
+  font-weight: bold;
+  font-style: normal;
+}
+em.pop.small {
+  font-size: 1.1em;
+}
+em.pop.med {
+  font-size: 1.3em;
+}
+em.pop.big {
+  font-size: 1.5em;
 }

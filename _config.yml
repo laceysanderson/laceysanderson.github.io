@@ -7,7 +7,7 @@ name: Lacey-Anne Sanderson
 position: Bioinformatics Research Assistant, Pulse Crop Research
 employer: University of Saskatchewan, Plant Sciences
 
-intro: Formally trained in botony and molecular biology with a sprinkling of computer science and practically trained in web development and plant breeding, I often feel like I'm straddling two worlds and belong in neither of them, which is just to say, I am a Bioinformaticist ;-). People either know me as the lead developer of KnowPulse or one of the core developers of Tripal --luckily they are both an end to the same mean.
+intro: Formally trained in <em class="pop small">botony and molecular biology</em> with a sprinkling of <em class="pop small">computer science</em> and practically trained in <em class="pop small">web development</em> and <em class="pop small">plant breeding</em>, I often feel like I'm straddling two worlds and belong in neither of them, which is just to say, <em class="pop big">I am a Bioinformaticist</em> ;-). People either know me as the <em class="pop med">lead developer of KnowPulse</em> or <em class="pop med">one of the core developers of Tripal</em> --luckily they are both an end to the same mean.
 
 # Build settings
 markdown: kramdown
