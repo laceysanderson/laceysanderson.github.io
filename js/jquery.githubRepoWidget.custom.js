@@ -11,9 +11,11 @@
 		var repo = $(this).data('repo'), 
 			vendorName = repo.split('/')[0], 
 			repoName = repo.split('/')[1];
+		// @debug console.log('Organization: '+vendorName+'; Repository: '+repoName);
 		if ( !vendors[ vendorName ] )  vendors[ vendorName ] = {};
 		vendors[ vendorName ][ repoName ] = $(this) ;
 	});
+	// @debug console.log(vendors);
 
 
 	if ( vendors ){
@@ -33,21 +35,22 @@
 			+'.github-box .github-box-content p{margin:0}'
 			+'.github-box .github-box-content .link{font-weight:bold}'
 			+'.github-box .github-box-download{position:relative;border-top:1px solid #ddd;background:white;border-radius:0 0 3px 3px;padding:10px;height:auto;min-height:24px;}'
-			+'.github-box .github-box-download .updated{word-wrap:break-word;margin:0;font-size:11px;color:#666;line-height:24px;font-weight:300;width:auto}'
+		  +'.github-box .github-box-download .updated{word-wrap:break-word;margin:0;font-size:11px;color:#666;line-height:24px;font-weight:300;width:auto}'
 			+'.github-box .github-box-download .updated strong{font-weight:bold;color:#000}'
-			+'.github-box .github-box-download .download{float:right;position:absolute;top:10px;right:10px;height:24px;line-height:24px;font-size:12px;color:#666;font-weight:bold;text-shadow:0 1px 0 rgba(255,255,255,0.9);padding:0 10px;border:1px solid #ddd;border-bottom-color:#bbb;border-radius:3px;background:#f5f5f5;background:-moz-linear-gradient(#f5f5f5,#e5e5e5);background:-webkit-linear-gradient(#f5f5f5,#e5e5e5);}'
+			//+'.github-box .github-box-download .download{float:right;position:absolute;top:10px;right:10px;height:24px;line-height:24px;font-size:12px;color:#666;font-weight:bold;text-shadow:0 1px 0 rgba(255,255,255,0.9);padding:0 10px;border:1px solid #ddd;border-bottom-color:#bbb;border-radius:3px;background:#f5f5f5;background:-moz-linear-gradient(#f5f5f5,#e5e5e5);background:-webkit-linear-gradient(#f5f5f5,#e5e5e5);}'
 			+'.github-box .github-box-download .download:hover{color:#527894;border-color:#cfe3ed;border-bottom-color:#9fc7db;background:#f1f7fa;background:-moz-linear-gradient(#f1f7fa,#dbeaf1);background:-webkit-linear-gradient(#f1f7fa,#dbeaf1);}'
 			+'@media (max-width: 767px) {'
 			+'.github-box .github-box-title{height:auto;min-height:60px}'
 			+'.github-box .github-box-title h3 .repo{display:block}'
 			+'.github-box .github-box-title .github-stats a{display:block;clear:right;float:right;}'
-			+'.github-box .github-box-download{height:auto;min-height:46px;}'
-			+'.github-box .github-box-download .download{top:32px;}'
+			//+'.github-box .github-box-download{height:auto;min-height:46px;}'
+			//+'.github-box .github-box-download .download{top:32px;}'
 			+'}'
 			+'</style>'
 		);
 
 		for (var vendor in vendors){
+		  // @debug console.log('LOOKING UP '+vendor);
 			$.ajax({
 				url: 'https://api.github.com/users/' + vendor + '/repos?per_page=100',
 				dataType: 'jsonp',
@@ -57,8 +60,12 @@
 					$.each(results.data, function( repoIndex) {
 						var repo = results.data[repoIndex];
 						var date, pushed_at = 'unknown',
+						  vendor = repo.owner.login,
 							vendorUrl = "http://github.com/" + vendor,
 							repoUrl = "http://github.com/" + vendor + '/' + repo.name;
+						
+						// @debug console.log('[In AJAX] Organization: '+vendor+'; Repository: '+repo.name);
+						// @debug console.log(repo);
 
 						var $widget = $(
 							'<div class="github-box repo">'
@@ -79,11 +86,12 @@
 							+'</div>'
 							+'<div class="github-box-download">'
 							+'<div class="updated"></div>'
-							+'<a class="download" href="' + repoUrl + '/zipball/master" title="Get an archive of this repository">Download as zip</a>'
+							//+'<a class="download" href="' + repoUrl + '/zipball/master" title="Get an archive of this repository">Download as zip</a>'
 							+'</div>'
 							+'</div>'
 						);
-
+            // @debug console.log($widget);
+            
 						$widget.appendTo( vendors[vendor][repo.name] );
 
 						if (repo.pushed_at) {
@@ -98,6 +106,8 @@
 
 						// Don't show "null" if the repo has no homepage URL.
 						if(repo.homepage != null) $widget.find('.link').append($('<a />').attr('href', repo.homepage).text(repo.homepage));
+
+            // @debug console.log(vendors);
 					});
 				}
 			});
