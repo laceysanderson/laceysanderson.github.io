@@ -415,6 +415,9 @@ td.loginRow {
 	margin-top: 15px;
 }
 
+/*
+  Emphasis
+*/
 em.pop {
   color: #5E006A;
   font-weight: bold;
@@ -428,4 +431,26 @@ em.pop.med {
 }
 em.pop.big {
   font-size: 1.5em;
+}
+
+/*
+  Work Experience
+*/
+.work-experience-item {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.work-experience-item .work-experience-title {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.work-experience-item .work-experience-metadata {
+  font-weight: bold;
+  font-style: italic;
+}
+.work-experience-item .work-experience-metadata .work-experience-dates {
+  float: right;
+}
+.work-experience-item .work-experience-metadata .work-experience-employer {
+  margin-right: 50px;
 }
