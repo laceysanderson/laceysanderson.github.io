@@ -150,7 +150,31 @@ presentations:
    venue: GMOD Conference
    date: Jan 2012
    url: http://gmod.org/wiki/April_2012_GMOD_Meeting
-   
+
+# Publications
+publications:
+ - title: "AgBioData consortium recommendations for sustainable genomics and genetics databases for agriculture"
+   citation: "Lisa Harper Jacqueline Campbell Ethalinda K S Cannon Sook Jung Monica Poelchau Ramona Walls, et. al. Database, Volume 2018, 1 January 2018, bay088"
+   url: "https://academic.oup.com/database/article/doi/10.1093/database/bay088/5096675"
+ - title: "Gene-based SNP discovery in tepary bean (Phaseolus acutifolius) and common bean (P. vulgaris) for diversity analysis and comparative mapping"
+   citation: "Neha Gujaria-Verma, Larissa Ramsay, Andrew G. Sharpe, Lacey-Anne Sanderson, Daniel G. Debouck, Bunyamin Tar’an and Kirstin E. Bett. BMC Genomics (2016) 17:239."
+   url : "https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-016-2499-3"
+ - title: "Gene-based SNP discovery and genetic mapping in pea"
+   citation: "Anoop Sindhu, Larissa Ramsay, Lacey-Anne Sanderson, Robert Stonehouse, Rong Li, Janet Condie, Arun S. K. Shunmugam, Yong Liu, Ambuj B. Jha, Marwan Diapari, Judith Burstin, Gregoire Aubert, Bunyamin Tar’an, Kirstin E. Bett, Thomas D. Warkentin, Andrew G. Sharpe. Theor Appl Genet (2014) 127: 2225."
+   url: "https://link.springer.com/article/10.1007/s00122-014-2375-y"
+ - title: "Tripal v1.1: a standards-based toolkit for construction of online genetic and genomic databases"
+   citation: "Lacey-Anne Sanderson, Stephen P. Ficklin, Chun-Huai Cheng, Sook Jung, Frank A. Feltus, Kirstin E. Bett and Dorrie Main. Oxford Database (2013) bat075"
+   url: "https://academic.oup.com/database/article-abstract/doi/10.1093/database/bat075/2871250"
+ - title: "Ancient orphan crop joins modern era: gene-based SNP discovery and mapping in lentil"
+   citation: "Andrew G Sharpe, Larissa Ramsay, Lacey-Anne Sanderson, Michael J Fedoruk, Wayne E Clarke, Rong Li, Sateesh Kagale, Perumal Vijayan, Albert Vandenberg and Kirstin E Bett. BMC Genomics (2013) 14:192."
+   url: "https://bmcgenomics.biomedcentral.com/articles/10.1186/1471-2164-14-192"
+ - title: "The Chado Natural Diversity module: a new generic database schema for large-scale phenotyping and genotyping data"
+   citation: "Sook Jung, Naama Menda, Seth Redmond, Robert M. Buels, Maren Friesen, Yuri Bendana, Lacey-Anne Sanderson, Hilmar Lapp, Taein Lee, Bob MacCallum, Kirstin E. Bett, Scott Cain, Dave Clements, Lukas A. Mueller and Dorrie Main. Oxford Database (2011) bar051"
+   url: "https://academic.oup.com/database/article/doi/10.1093/database/bar051/469438/The-Chado-Natural-Diversity-module-a-new-generic?keytype=ref&ijkey=PMfz4WaoILO7bZJ"
+ - title: "Tripal: a construction toolkit for online genome databases"
+   citation: "Stephen P. Ficklin, Lacey-Anne Sanderson, Chun-Huai Cheng, Margaret E. Staton, Taein Lee, Il-Hyung Cho, Sook Jung, Kirstin E. Bett and Doreen Main. Oxford Database (2011) bar044"
+   url: "https://academic.oup.com/database/article/doi/10.1093/database/bar044/468186"
+
 # An additional info freetext section is optional at the bottom of the page - can be text or HTML
 #additionalinfo: |
 #   <strong>JVM</strong>: I am experienced in a variety of Java API’s and frameworks. I #have recently worked with Spring 4, Spring Boot, JPA (Hibernate and EclipseLink) in #addition to others.  In my current role Groovy is the primary language used - and I am #familiar with many of the languages features and quirks (including writing <a #target='_blank' #href="https://dzone.com/articles/functional-programming-groovy">Functional Programming #style groovy</a>). <br/><br/>

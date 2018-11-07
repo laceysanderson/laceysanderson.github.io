@@ -1,0 +1,16 @@
+<div class="rounded_panel txt_lightgrey">
+	<div class="top-rounded-panel grey-bg">
+		<h1>Peer-reviewed Publications</h1>
+	</div>
+	<div class="content-rounded-panel">
+		<div id="publication-container">
+      {% for pub in site.publications %}
+        <div class="publication-item">
+          <div class="publication-title"><a href="{{pub.url}}" target="_blank">{{pub.title}}</a></div>
+          <div class="publication-details">{{pub.citation}}</div>
+        </div>
+      {% endfor %}
+		</div>
+		<br>
+	</div>
+</div>
