@@ -36,6 +36,26 @@ skills:
  - Javascript
  - Tripal
 
+# List of interesting Github repo/projects to include - optional
+github:
+ - tripal/tripal
+ - tripal/tripal_blast
+ - UofS-Pulse-Binfo/nd_genotypes 
+ - tripal/trpdownload_api 
+ - tripal/tripald3
+ - tripal/trpfancy_fields
+
+# Education is required
+education:
+ - level: Bachelor of Science (B.Sc.) Honours
+   date: 2009
+   subject: "Major: Biology, Specialized in Molecular Biology & Botany"
+   school: University of Saskatchewan
+ - level: Honours Certificate in Science (B.Sc. equivalent)
+   date: 2009
+   subject: "Major: Bioinformatics"
+   school: University of Saskatchewan
+
 # Work experience is required
 roles:
  - title: Bioinformatics Research Assistant
@@ -69,27 +89,68 @@ roles:
    employer: Wilson Lab, University of Saskatchewan
    description: Assisting lab graduate students with molecular biology techniques
 
-
-# Education is required
-education:
- - level: Bachelor of Science (B.Sc.) Honours
-   date: 2009
-   subject: "Major: Biology, Specialized in Molecular Biology & Botany"
-   school: University of Saskatchewan
- - level: Honours Certificate in Science (B.Sc. equivalent)
-   date: 2009
-   subject: "Major: Bioinformatics"
-   school: University of Saskatchewan
-
-# List of interesting Github repo/projects to include - optional
-github:
- - tripal/tripal
- - tripal/tripal_blast
- - UofS-Pulse-Binfo/nd_genotypes 
- - tripal/trpdownload_api 
- - tripal/tripald3
- - tripal/trpfancy_fields
-
+presentations:
+ - title: "Tripal Database Network and Initiatives"
+   role: Workshop Organizer
+   venue: Plant and Animal Genome (PAG) Conference
+   date: Jan 2017
+   url: https://pag.confex.com/pag/xxv/webprogram/Session4309.html
+ - title: "Tripal User Meeting & Hackathon"
+   role: Organizer
+   venue: Tripal Developer Community Meeting
+   date: Jan 2017
+   url: https://tripal.info/node/328
+ - title: "Extending Tripal for Community-Based Management and Distribution of Genotypic and Phenotypic Data"
+   role: Oral Presentatio 
+   venue: Plant and Animal Genome (PAG) Conference
+   date: Jan 2017
+   url: https://pag.confex.com/pag/xxv/webprogram/Paper25949.html
+ - title: "Tripal Database Network and Initiatives"
+   role: Workshop Organizer
+   venue: Plant and Animal Genome (PAG) Conference
+   date: Jan 2016
+   url: https://pag.confex.com/pag/xxiv/webprogram/Session3182.html
+ - title: "Tripal Codefest"
+   role: Organizer
+   venue: Tripal Developer Community Meeting
+   date: Jan 2016
+   url: https://docs.google.com/document/d/1dOGErGe8UNcWD-6sHWhpCJqgAVgukZhb-MR3cBEokss/edit
+ - title: "Tripal v2: An Overview"
+   role: Oral Presentation
+   venue: Plant and Animal Genome (PAG) Conference
+   date: Jan 2016
+   url: https://pag.confex.com/pag/xxiv/webprogram/Paper20561.html 
+ - title: "Tripal (Community Update)"
+   role: Oral Presentation
+   venue: GMOD Conference
+   date: Jun 2016
+   url: http://gmod.org/wiki/Jun_2016_GMOD_Meeting 
+ - title: "Extending Tripal for Specialized Display and Management of Diversity and Breeding Data"
+   role: Oral Presentation
+   venue: Plant and Animal Genome (PAG) Conference
+   date: Jan 2015
+   url: https://pag.confex.com/pag/xxiii/webprogram/Paper14948.html 
+ - title: "KnowPulse: A Breeder-Focused Web Portal That Integrates Genetics and Genomics of Pulse Crops with Model Genomes"
+   role: Oral Presentation
+   venue: Plant and Animal Genome (PAG) Conference
+   date: Jan 2015
+   url: https://pag.confex.com/pag/xxiii/webprogram/Paper17190.html 
+ - title: "Tripal (Community Update)"
+   role: Oral Presentation
+   venue: Plant and Animal Genome (PAG) Conference
+   date: Jan 2014
+   url: https://pag.confex.com/pag/xxii/webprogram/Paper10624.html 
+ - title: "Tripal (Community Update)"
+   role: Oral Presentation
+   venue: GMOD Conference
+   date: Jan 2014
+   url: http://gmod.org/wiki/Jan_2014_GMOD_Meeting 
+ - title: "Tripal (Community Update)"
+   role: Oral Presentation
+   venue: GMOD Conference
+   date: Jan 2012
+   url: http://gmod.org/wiki/April_2012_GMOD_Meeting
+   
 # An additional info freetext section is optional at the bottom of the page - can be text or HTML
 #additionalinfo: |
 #   <strong>JVM</strong>: I am experienced in a variety of Java API’s and frameworks. I #have recently worked with Spring 4, Spring Boot, JPA (Hibernate and EclipseLink) in #addition to others.  In my current role Groovy is the primary language used - and I am #familiar with many of the languages features and quirks (including writing <a #target='_blank' #href="https://dzone.com/articles/functional-programming-groovy">Functional Programming #style groovy</a>). <br/><br/>

@@ -1,0 +1,31 @@
+<div id="presentations" class="rounded_panel txt_lightgrey">
+	<div class="top-rounded-panel grey-bg">
+		<h1>Scientific Presentations</h1>
+	</div>
+	<div class="content-rounded-panel">
+		<div>
+			<table class="table table-condensed">
+				<thead>
+					<tr>
+						<th><a style="cursor: pointer;">Role</a></th>
+						<th><a style="cursor: pointer;">Conference</a></th>
+						<th><a style="cursor: pointer;">Date</a></th>
+					</tr>
+				</thead>
+				<tbody>
+					{% for presentation in site.presentations %}
+						<tr class="first">
+							<td colspan="3"><a href="{{presentation.url}}" target="_blank">{{presentation.title}}</a></td>
+						</tr>
+						<tr class="second">
+						  <td>{{presentation.role}}
+							<td>{{presentation.venue}}</td>
+							<td>{{presentation.date}}</td>
+						</tr>
+					{% endfor %}
+				</tbody>
+			</table>
+		</div>
+		<br>
+	</div>
+</div>

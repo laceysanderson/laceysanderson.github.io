@@ -454,3 +454,22 @@ em.pop.big {
 .work-experience-item .work-experience-metadata .work-experience-employer {
   margin-right: 50px;
 }
+
+/*
+ Presentations
+ */
+#presentations tr td {
+  border: 0;
+  line-height: 0.8;
+}
+#presentations tr.first td {
+  border-top: 1px solid #d0d0d0;
+  padding-top: 15px;
+}
+#presentations tr.second td {
+  border-bottom: 1px solid #d0d0d0;
+  padding-bottom: 15px;
+}
+#presentations tbody tr:nth-child(odd) {
+    background-color: #FFF5FF;
+}
