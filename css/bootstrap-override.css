@@ -3,7 +3,7 @@ a, a:focus, a:hover {
 }
 /** NavBar override **/
 .nav>li>a:focus, .nav>li>a:hover,.navbar-inverse .nav li.dropdown.open>.dropdown-toggle,.navbar-inverse .nav li.dropdown.active>.dropdown-toggle,.navbar-inverse .nav li.dropdown.open.active>.dropdown-toggle{
-	background-color: #2d3538;
+	background-color: none;
 	color: #5E006A;
 }
 .navbar-inverse .nav>li>a {
@@ -22,14 +22,14 @@ a, a:focus, a:hover {
 
 /** skills labels  **/
 .label-padded {
-	padding: 5px; 
+	padding: 5px;
 }
 .label-info, .badge-info {
   color: #FFF;
 	background-color: #5E006A;
 	text-shadow:none;
 	font-weight: normal;
-	
+
 }
 .label {
 	padding: 1px 4px 2px;

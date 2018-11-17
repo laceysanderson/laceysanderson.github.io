@@ -1,0 +1,18 @@
+---
+layout: yoga_main
+title: LaceySanderson's Yoga Journal
+---
+
+<div id="post-listing">
+  {% for post in site.posts %}
+    <div class="post">
+      <div class="side">
+        <div class="post-date">{{ post.date | date_to_string }}</div>
+      </div>
+      <div class="main">
+        <div class="post-title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></div>
+        <div class="post-teaser">{{ post.teaser }}</div>
+      </div>
+    </div>
+  {% endfor %}
+</div>

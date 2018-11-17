@@ -40,8 +40,8 @@ skills:
 github:
  - tripal/tripal
  - tripal/tripal_blast
- - UofS-Pulse-Binfo/nd_genotypes 
- - tripal/trpdownload_api 
+ - UofS-Pulse-Binfo/nd_genotypes
+ - tripal/trpdownload_api
  - tripal/tripald3
  - tripal/trpfancy_fields
 
@@ -75,7 +75,7 @@ roles:
    description: BIOL 202 Introductory Botany
  - title: Summer Research Student
    start: May 2008
-   end: September 2008 
+   end: September 2008
    employer: Bonham-Smith Lab, University of Saskatchewan
    description: Design and management of an individual project on the ribosomal protein S15aC
  - title: Teaching Assistant
@@ -101,7 +101,7 @@ presentations:
    date: Jan 2017
    url: https://tripal.info/node/328
  - title: "Extending Tripal for Community-Based Management and Distribution of Genotypic and Phenotypic Data"
-   role: Oral Presentatio 
+   role: Oral Presentatio
    venue: Plant and Animal Genome (PAG) Conference
    date: Jan 2017
    url: https://pag.confex.com/pag/xxv/webprogram/Paper25949.html
@@ -119,32 +119,32 @@ presentations:
    role: Oral Presentation
    venue: Plant and Animal Genome (PAG) Conference
    date: Jan 2016
-   url: https://pag.confex.com/pag/xxiv/webprogram/Paper20561.html 
+   url: https://pag.confex.com/pag/xxiv/webprogram/Paper20561.html
  - title: "Tripal (Community Update)"
    role: Oral Presentation
    venue: GMOD Conference
    date: Jun 2016
-   url: http://gmod.org/wiki/Jun_2016_GMOD_Meeting 
+   url: http://gmod.org/wiki/Jun_2016_GMOD_Meeting
  - title: "Extending Tripal for Specialized Display and Management of Diversity and Breeding Data"
    role: Oral Presentation
    venue: Plant and Animal Genome (PAG) Conference
    date: Jan 2015
-   url: https://pag.confex.com/pag/xxiii/webprogram/Paper14948.html 
+   url: https://pag.confex.com/pag/xxiii/webprogram/Paper14948.html
  - title: "KnowPulse: A Breeder-Focused Web Portal That Integrates Genetics and Genomics of Pulse Crops with Model Genomes"
    role: Oral Presentation
    venue: Plant and Animal Genome (PAG) Conference
    date: Jan 2015
-   url: https://pag.confex.com/pag/xxiii/webprogram/Paper17190.html 
+   url: https://pag.confex.com/pag/xxiii/webprogram/Paper17190.html
  - title: "Tripal (Community Update)"
    role: Oral Presentation
    venue: Plant and Animal Genome (PAG) Conference
    date: Jan 2014
-   url: https://pag.confex.com/pag/xxii/webprogram/Paper10624.html 
+   url: https://pag.confex.com/pag/xxii/webprogram/Paper10624.html
  - title: "Tripal (Community Update)"
    role: Oral Presentation
    venue: GMOD Conference
    date: Jan 2014
-   url: http://gmod.org/wiki/Jan_2014_GMOD_Meeting 
+   url: http://gmod.org/wiki/Jan_2014_GMOD_Meeting
  - title: "Tripal (Community Update)"
    role: Oral Presentation
    venue: GMOD Conference
@@ -177,3 +177,11 @@ publications:
 
 # An additional info freetext section is optional at the bottom of the page - can be text or HTML
 #additionalinfo: "lorem ipsum"
+
+# User specific content
+# Links that will appear in the navbar
+yogalinks:
+ - title: Yoga Journal
+   url: https://github.com/laceysanderson
+ - title: Yoga Videos
+   url: https://www.drupal.org/u/laceysanderson

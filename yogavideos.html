@@ -1,0 +1,41 @@
+---
+layout: yoga_main
+title: Yoga Videos
+---
+
+<p>The following table lists a selection of video yoga practices for use in my daily
+yoga practice. I take no credit for any of these videos as that belongs soley to
+the amazing artists who produced them.</p>
+
+<table id="yoga-videos" class="table table-striped table-hover table-condensed">
+  <thead>
+    <tr>
+      <th rowspan="2">Length</th>
+      <th rowspan="2">Activity</th>
+      <th rowspan="2">Category</th>
+      <th rowspan="2">Video</th>
+      <th colspan="4" class="asana">Asana</th>
+    </tr>
+    <tr>
+      <th class="asana">Standing</th>
+      <th class="asana">Balancing</th>
+      <th class="asana">Seated/Stretching</th>
+      <th class="asana">Core Activating</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for video in site.data.yogavideos %}
+      <tr>
+        <td>{{ video.Time }}</td>
+        <td>{{ video.ActivityLevel }}</td>
+        <td>{{ video.Category }}</td>
+        <td><div class="title">{{ video.VideoTitle }}</div>
+            <div class="artist">{{ video.Artist }}</div></td>
+        <td>{{ video.LegAsana }}</td>
+        <td>{{ video.BalanacingAsana }}</td>
+        <td>{{ video.StretchAsana }}</td>
+        <td>{{ video.CoreAsana }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
